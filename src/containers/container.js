@@ -16,9 +16,9 @@ const Dashboard = (props) => {
           <Col lg={2} md={4} lg={4} xxl={2}>
             <SideNav />
           </Col>
-          <Col style={{ marginLeft: "-25px" }} lg={10} md={8} lg={8} xxl={10}>
+          <Col style={{ marginLeft: "-25px" }} xs={12} lg={10} md={8} lg={8} xxl={10}>
             <TopBar />
-            <div style={{ paddingLeft: 60, paddingRight: 60 }}>
+            <div className={"padding-60"}>
               <ProgressBar />
               <FormComp />
               <Account />

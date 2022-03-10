@@ -35,10 +35,11 @@ const Account = (props) => {
 
   return <>
   <Container > 
-
+    <div className="padding-mb">
       <p>Account Activity</p>
 
-      <Row className="table-heading">
+    <Row className="table-heading">
+        
           <Col xs={2}>
               Date
           </Col>
@@ -93,6 +94,9 @@ const Account = (props) => {
           
       </Row>
 
+    </div>
+
+     
 
   </Container>
 

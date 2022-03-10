@@ -9,11 +9,11 @@ const TopBar = (props) => {
     <>
       <div style={{ marginTop: 20 , marginLeft:20}}>
         <Row>
-          <Col>
+          <Col xs={12} xxl={6} md={6} lg={6}>
             <p className="welcome-text mt-10 m-0"> Welcome to Centralin!</p>
           </Col>
-          <Col>
-            <p style={{ textAlign: "end" }} className="welcome-text mt-10 m-0">
+          <Col xs={12} xxl={6} md={6} lg={6}>
+            <p  className="welcome-text mt-10 m-0 text-end">
               {" "}
              <img src='/assets/right1.svg' />
              <img src='/assets/right2.svg' />

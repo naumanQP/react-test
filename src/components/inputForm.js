@@ -17,10 +17,10 @@ const FormComp = (props) => {
     <>
       <Container>
         <Row className="padding-20 ">
-          <Col xs={4}>
+          <Col lg={4} md={4} xxl={4} xs={12}>
             <p className="form-text"> Sign In</p>
           </Col>
-          <Col xs={8}>
+          <Col lg={8} md={8} xxl={8} xs={12}>
             <div> 
                 <div>
                 <TextField
@@ -65,10 +65,10 @@ const FormComp = (props) => {
         <hr></hr>
 
         <Row className="padding-20 mt-60">
-          <Col xs={4}>
+          <Col lg={4} md={4} xxl={4} xs={12}>
             <p className="form-text"> Security Information</p>
           </Col>
-          <Col xs={8}>
+          <Col lg={8} md={8} xxl={8} xs={12}>
             <div> 
                 <div className="flex-center">
                 <TextField
