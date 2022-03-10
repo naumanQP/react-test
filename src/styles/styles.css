@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+.background-grey {
+  background-color: #555555 !important;
+  height: 120vh;
+  width: 100%;
+}
+.text-blue input{
+    color: #1D84C6;  
+}
+.edit-text{
+    font-family: "DM Sans", sans-serif;
+
+    padding-left: 10px;
+    align-self: center;
+
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Primary/Main */
+
+color: #5048E5;
+}
+.border-end{
+    background: #1D84C6;
+    height: 2px;
+    width: 80%;
+   margin-left: 3px;
+}
+/*  SideBar Top Profile */
+.profile-container {
+  color: white;
+  padding-top: 40px;
+  font-family: "DM Sans", sans-serif;
+}
+.profile-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+.profile-text-sm {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 12px;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Navbar Links */
+.nav-container {
+  margin-top: 20px;
+}
+.nav-link {
+  display: flex;
+  flex: 1;
+}
+.nav-text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.social-links {
+  margin-top: 60px;
+}
+.logout {
+  width: 183px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  /* background-image: url('/assets/default.png'); */
+  background-image: url("/public/assets/default.png");
+  /* Inside auto layout */
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: none;
+  order: 15;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-text {
+  font-family: "DM Sans", sans-serif;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  color: #212429;
+}
+
+.main-heading {
+  font-family: "DM Sans", sans-serif;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 137.5%;
+
+  color: #111827;
+}
+/* Progress bar */
+
+.progress-container {
+  display: flex;
+  border-bottom: 2px solid #e6e8f0;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+.progress-tab {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  margin-right: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 34px;
+  /* identical to box height, or 171% */
+
+  display: flex;
+  align-items: center;
+
+  color: #6b7280;
+}
+.tab-active {
+  font-family: "DM Sans", sans-serif;
+  margin-right: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 30px; */
+  /* identical to box height, or 171% */
+
+  display: flex;
+  align-items: center;
+
+  color: #1d84c6;
+  border-bottom: 1px solid #1d84c6;
+
+}
+
+/* margins */
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-05 {
+  margin-top: 05px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.margin-left-20 {
+  margin-left: 20px;
+}
+.padding-20 {
+  padding: 20px;
+}
+
+/* input fields */
+.box-shadow {
+  box-shadow: 0px 1px 1px rgba(100, 116, 139, 0.06),
+    0px 1px 2px rgba(100, 116, 139, 0.1);
+}
+.user-input-card- {
+  background: #ffffff !important;
+  border: 1px solid #d1d5db !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.02) !important;
+  border-radius: 5px !important;
+}
+
+.user-input-card-:before {
+  border-bottom: none !important;
+}
+.user-input-card-:after {
+  border-bottom: none !important;
+}
+
+.fieldsAccountDetails .user-input-card- {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.form-text {
+  font-family: "DM Sans", sans-serif;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #111827;
+}
+
+/* accounts */
+
+.table-heading {
+  background: #f3f4f6;
+  padding: 15px 10px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 250%;
+  /* identical to box height, or 30px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  color: #111827;
+}
+
+.table-hr {
+    background: white;
+    padding: 15px 10px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* border-bottom: 1px solid green; */
+
+  }
+
+  .hr-black{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #111827;
+  }
+
+  .hr-blue{
+    font-family: "DM Sans", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #1D84C6;
+  }
+
+  .hr-green{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1CB393;
+  }
+  .hr-red{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E7414C;
+  }
